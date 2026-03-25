@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Akbar — Supply Chain & Fulfillment Specialist</title>
+
+  <!-- SEO & OpenGraph -->
+  <meta name="description" content="Ali Akbar — Manajer Operasional dengan rekam jejak memangkas OPEX 47%. Supply Chain Specialist & Fulfillment Specialist." />
+  <meta property="og:title" content="Ali Akbar — Supply Chain & Fulfillment Specialist" />
+  <meta property="og:description" content="Manajer Operasional | OPEX reduction 47% | Custom WMS Builder | Multi-vendor ODM supply chain." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://ui-avatars.com/api/?name=Ali+Akbar&size=1200&background=1B3A5C&color=fff&font-size=0.33&bold=true&format=png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ali Akbar — Supply Chain & Fulfillment Specialist" />
+  <meta name="twitter:description" content="Manajer Operasional | OPEX reduction 47% | Custom WMS Builder" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-ring"></div>
+      <p class="loader-text">Memuat pengalaman...</p>
+    </div>
+  </div>
+
+  <!-- Three.js Canvas -->
+  <canvas id="bubble-canvas"></canvas>
+
+  <!-- Audio Controller -->
+  <div id="audio-control" class="audio-control" aria-label="Audio Control">
+    <button id="audio-toggle" class="audio-btn" aria-label="Toggle ambient sound">
+      <svg id="audio-icon-on" class="audio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+        <path d="M19.07 4.93a10 10 0 010 14.14M15.54 8.46a5 5 0 010 7.07"/>
+      </svg>
+      <svg id="audio-icon-off" class="audio-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+        <line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>
+      </svg>
+    </button>
+    <input id="audio-volume" type="range" min="0" max="100" value="30" class="audio-slider" aria-label="Volume" />
+  </div>
+
+  <!-- Navigation Dots -->
+  <nav id="nav-dots" class="nav-dots" aria-label="Section navigation">
+    <button class="nav-dot active" data-section="hero" aria-label="Hero"><span class="dot-label">Home</span></button>
+    <button class="nav-dot" data-section="summary" aria-label="Ringkasan"><span class="dot-label">Ringkasan</span></button>
+    <button class="nav-dot" data-section="skills" aria-label="Keahlian"><span class="dot-label">Keahlian</span></button>
+    <button class="nav-dot" data-section="experience" aria-label="Pengalaman"><span class="dot-label">Pengalaman</span></button>
+    <button class="nav-dot" data-section="competencies" aria-label="Kompetensi"><span class="dot-label">Kompetensi</span></button>
+    <button class="nav-dot" data-section="education" aria-label="Pendidikan"><span class="dot-label">Pendidikan</span></button>
+    <button class="nav-dot" data-section="achievement" aria-label="Pencapaian"><span class="dot-label">Pencapaian</span></button>
+    <button class="nav-dot" data-section="contact" aria-label="Kontak"><span class="dot-label">Kontak</span></button>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- ============ HERO ============ -->
+    <section id="hero" class="section hero-section">
+      <div class="hero-content">
+        <p class="hero-greeting reveal-up">Hai, saya</p>
+        <h1 class="hero-name reveal-up delay-1">Ali Akbar</h1>
+        <div class="hero-titles reveal-up delay-2">
+          <span class="title-tag">Manajer Operasional</span>
+          <span class="title-divider"></span>
+          <span class="title-tag">Supply Chain Specialist</span>
+          <span class="title-divider"></span>
+          <span class="title-tag">Fulfillment Specialist</span>
+        </div>
+        <div class="hero-stat reveal-up delay-3">
+          <span class="stat-number">47%</span>
+          <span class="stat-label">OPEX Reduction</span>
+        </div>
+        <a href="#summary" class="scroll-cta reveal-up delay-4">
+          <span>Jelajahi</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="scroll-arrow">
+            <path d="M12 5v14M19 12l-7 7-7-7"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ RINGKASAN ============ -->
+    <section id="summary" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal-up">Ringkasan Profesional</h2>
+        <div class="glass-card reveal-up delay-1">
+          <p class="summary-text">
+            Manajer Operasional yang fokus pada satu hal: <strong>biaya turun, sistem jalan, tim tahu apa yang harus dilakukan.</strong>
+          </p>
+          <p class="summary-text">
+            Hasil paling konkret sampai hari ini: memangkas <strong>OPEX sebesar 47%</strong> di Elfishaskin. Bukan lewat konsultan. Masuk langsung ke prosesnya, bangun WMS dari nol, dan benahi BOM sampai ke level komponen.
+          </p>
+          <p class="summary-text">
+            Karir dimulai dari lantai gudang <strong>Tokopedia OSO Surabaya</strong> pada 2020, pindah ke <strong>Elfishaskin</strong> pada 2022 untuk mengelola order, lalu naik ke posisi <strong>Manajer Operasional penuh</strong> pada 2024. Sekarang memegang pengadaan, gudang, pengembangan produk, dan manajemen order sekaligus.
+          </p>
+        </div>
+        <div class="timeline-mini reveal-up delay-2">
+          <div class="tl-item">
+            <span class="tl-year">2020</span>
+            <span class="tl-dot"></span>
+            <span class="tl-text">Tokopedia OSO</span>
+          </div>
+          <div class="tl-line"></div>
+          <div class="tl-item">
+            <span class="tl-year">2022</span>
+            <span class="tl-dot"></span>
+            <span class="tl-text">Elfishaskin — Order</span>
+          </div>
+          <div class="tl-line"></div>
+          <div class="tl-item">
+            <span class="tl-year">2024</span>
+            <span class="tl-dot"></span>
+            <span class="tl-text">Manajer Operasional</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal-up">Matriks Keahlian</h2>
+
+        <div class="skills-container">
+          <!-- Hard Skills -->
+          <div class="glass-card reveal-up delay-1">
+            <h3 class="card-subtitle">Hard Skills</h3>
+            <div class="skill-tags">
+              <span class="skill-tag" data-level="expert">End-to-End Supply Chain</span>
+              <span class="skill-tag" data-level="expert">Custom WMS Architecture</span>
+              <span class="skill-tag" data-level="expert">BOM Management</span>
+              <span class="skill-tag" data-level="expert">Procurement & Multi-Vendor</span>
+              <span class="skill-tag" data-level="advanced">Demand Forecasting</span>
+              <span class="skill-tag" data-level="expert">OPEX Analysis & Cost Reduction</span>
+              <span class="skill-tag" data-level="advanced">Warehouse Operations</span>
+              <span class="skill-tag" data-level="expert">Omnichannel Order Management</span>
+              <span class="skill-tag" data-level="advanced">Operational Data Analysis</span>
+              <span class="skill-tag" data-level="advanced">KPI Design & OKR Framework</span>
+              <span class="skill-tag" data-level="intermediate">NPD Coordination</span>
+              <span class="skill-tag" data-level="expert">SLA & E-Commerce Fulfilment</span>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="glass-card reveal-up delay-2">
+            <h3 class="card-subtitle">Soft Skills</h3>
+            <div class="skill-tags">
+              <span class="skill-tag soft">Strategic Systems Thinking</span>
+              <span class="skill-tag soft">Team Leadership — 4 Teams</span>
+              <span class="skill-tag soft">Root-Cause Analysis</span>
+              <span class="skill-tag soft highlight">Vendor Negotiation — 87% Success</span>
+              <span class="skill-tag soft">Stakeholder Management</span>
+              <span class="skill-tag soft">Decision Making under Pressure</span>
+              <span class="skill-tag soft">Process Improvement</span>
+              <span class="skill-tag soft">Structured Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal-up">Pengalaman Kerja</h2>
+
+        <!-- Job 1 -->
+        <div class="exp-card glass-card reveal-up delay-1" data-expandable>
+          <div class="exp-header">
+            <div class="exp-info">
+              <h3 class="exp-role">Manajer Operasional</h3>
+              <p class="exp-company">Elfishaskin — Brand Skincare D2C</p>
+              <p class="exp-meta">September 2024 – Sekarang &bull; Caruban, Jawa Timur</p>
+            </div>
+            <button class="exp-toggle" aria-label="Expand details">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+          <p class="exp-summary">Pegang operasional penuh untuk brand skincare D2C model ODM. 4 tim, 5 jenis vendor, tanpa produksi internal.</p>
+          <div class="exp-details">
+            <ul class="exp-bullets">
+              <li><strong>Memangkas OPEX 47%</strong> — renegosiasi kontrak vendor, potong lapisan proses, pasang kontrol biaya di level BOM. Dampak langsung ke contribution margin dan EBITDA.</li>
+              <li><strong>Bangun WMS kustom dari nol</strong> — gantikan spreadsheet tracking. Akurasi inventori &gt;99%, misfulfillment hampir nol, di 46 SKU (10 satuan + 36 bundling).</li>
+              <li><strong>Framework BOM dengan MRC H-7</strong> — pengecekan kesiapan material seminggu sebelum setiap jadwal filling ODM. Kekurangan komponen mendadak dieliminasi.</li>
+              <li><strong>Kalender PO multi-vendor</strong> — botol, box, stiker, hologram tersedia seminggu sebelum filling. Lead time lebih prediktif, biaya idle ODM turun.</li>
+              <li><strong>Negosiasi ulang kontrak vendor — 87% berhasil</strong> — setiap negosiasi dibawa data cost-of-defect aktual dan benchmark harga pasar.</li>
+              <li><strong>Sistem tracking defect</strong> — konversi tingkat cacat ke angka Rupiah, jadi senjata di meja negosiasi vendor.</li>
+              <li><strong>KPI Scorecard 4 tim</strong> — fulfillment rate &gt;99%, vendor OTD &gt;95%, akurasi forecast &gt;85%, NPD on-time &gt;85%.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="exp-card glass-card reveal-up delay-2" data-expandable>
+          <div class="exp-header">
+            <div class="exp-info">
+              <h3 class="exp-role">Spesialis Manajemen Order</h3>
+              <p class="exp-company">Elfishaskin — Brand Skincare D2C</p>
+              <p class="exp-meta">Juni 2022 – Agustus 2024 &bull; Caruban, Jawa Timur</p>
+            </div>
+            <button class="exp-toggle" aria-label="Expand details">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+          <p class="exp-summary">Kelola siklus order penuh di TikTok Shop, Shopee, dan Lazada saat volume tumbuh cepat.</p>
+          <div class="exp-details">
+            <ul class="exp-bullets">
+              <li><strong>Pemrosesan order volume tinggi</strong> — sinkronisasi stok di 3 platform via BigSeller. On-time dispatch &gt;98% saat campaign besar.</li>
+              <li><strong>Rekonsiliasi harian</strong> stok fisik vs stok marketplace untuk cegah overselling dan tekan pembatalan.</li>
+              <li><strong>Alur stock alert mingguan</strong> — pantau ROP tiap SKU, dorong rekomendasi PO sebelum lead time habis.</li>
+              <li><strong>Analisis bottleneck</strong> dari data BigSeller (92 kolom) — identifikasi akar masalah, perbaiki proses bersama tim gudang dan pengadaan.</li>
+              <li><strong>Analisis cancellation rate, performa SKU</strong> — temuan jadi dasar perubahan proses saat naik ke Manajer Operasional.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="exp-card glass-card reveal-up delay-3" data-expandable>
+          <div class="exp-header">
+            <div class="exp-info">
+              <h3 class="exp-role">Perencana Supply Chain — Fulfillment Regional</h3>
+              <p class="exp-company">Fulfillment by Tokopedia (OSO)</p>
+              <p class="exp-meta">Mei 2020 – Februari 2022 &bull; Surabaya, Jawa Timur</p>
+            </div>
+            <button class="exp-toggle" aria-label="Expand details">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+          <p class="exp-summary">Perencana supply chain di jaringan OSO Tokopedia Surabaya. Demand planning antar hub, alokasi inventori regional, SLA ketat.</p>
+          <div class="exp-details">
+            <ul class="exp-bullets">
+              <li><strong>Peramalan permintaan & alokasi inventori</strong> di beberapa hub regional, jaga keseimbangan ketersediaan vs overstock.</li>
+              <li><strong>Pantau SLA mega-campaign</strong> (Harbolnas/WIB) saat volume naik 2–5x lipat.</li>
+              <li><strong>Negosiasi alokasi stok antar gudang</strong> saat supply terbatas — pertama belajar bahwa data adalah segalanya.</li>
+              <li><strong>Safety stock, ROP modeling, buffering</strong> demand campaign di skala enterprise — metode masih dipakai sampai sekarang.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPETENCIES ============ -->
+    <section id="competencies" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal-up">Technical Competencies</h2>
+        <div class="comp-grid reveal-up delay-1">
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#9881;</div>
+            <span>Custom WMS Build & Ops</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128230;</div>
+            <span>BigSeller OMS</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128203;</div>
+            <span>BOM Management</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128200;</div>
+            <span>Microsoft Excel (Advanced)</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128201;</div>
+            <span>Demand Forecasting</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#127981;</div>
+            <span>ERP Concepts</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128451;</div>
+            <span>Inventory Control Systems</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128202;</div>
+            <span>Multi-SKU Analytics</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#127760;</div>
+            <span>ODM/OEM Coordination</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128206;</div>
+            <span>KPI Dashboard Design</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128722;</div>
+            <span>Procurement Systems</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128187;</div>
+            <span>E-Commerce Marketplace Ops</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128190;</div>
+            <span>SQL (Basic–Intermediate)</span>
+          </div>
+          <div class="comp-item glass-card-sm">
+            <div class="comp-icon">&#128296;</div>
+            <span>Basic Coding / Scripting</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal-up">Pendidikan</h2>
+        <div class="glass-card edu-card reveal-up delay-1">
+          <div class="edu-icon">&#127891;</div>
+          <div class="edu-info">
+            <h3>Program Sarjana Ilmu Komunikasi</h3>
+            <p class="edu-school">Universitas Slamet Riyadi (UNISRI), Surakarta</p>
+            <p class="edu-year">2018 – 2020</p>
+            <p class="edu-focus">Fokus pada komunikasi organisasi dan manajemen stakeholder.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENT ============ -->
+    <section id="achievement" class="section">
+      <div class="section-inner achievement-inner">
+        <div class="achievement-badge reveal-up">
+          <div class="badge-ring">
+            <span class="badge-number">47%</span>
+          </div>
+          <h2 class="achievement-title reveal-up delay-1">OPEX Reduction</h2>
+          <p class="achievement-subtitle reveal-up delay-2">Headline Achievement</p>
+          <div class="achievement-details reveal-up delay-3">
+            <div class="ach-item">
+              <span class="ach-icon">&#9881;</span>
+              <span>Custom WMS Build</span>
+            </div>
+            <div class="ach-item">
+              <span class="ach-icon">&#128203;</span>
+              <span>BOM Management Overhaul</span>
+            </div>
+            <div class="ach-item">
+              <span class="ach-icon">&#128260;</span>
+              <span>Supply Chain Process Redesign</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="section-inner contact-inner">
+        <h2 class="section-title reveal-up">Hubungi Saya</h2>
+        <p class="contact-subtitle reveal-up delay-1">Tertarik berdiskusi tentang supply chain, operasional, atau peluang kerja sama?</p>
+        <div class="contact-cards reveal-up delay-2">
+          <a href="mailto:alliakbarr006@gmail.com" class="contact-card glass-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="contact-icon"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">alliakbarr006@gmail.com</span>
+          </a>
+          <a href="https://wa.me/6281334925297" target="_blank" rel="noopener" class="contact-card glass-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="contact-icon"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <span class="contact-label">WhatsApp</span>
+            <span class="contact-value">+62 813-3492-5297</span>
+          </a>
+          <div class="contact-card glass-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="contact-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span class="contact-label">Lokasi</span>
+            <span class="contact-value">Madiun, Jawa Timur</span>
+          </div>
+        </div>
+        <div class="contact-footer reveal-up delay-3">
+          <p>&copy; 2025 Ali Akbar. Dibuat dengan perhatian terhadap detail.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
