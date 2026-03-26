@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "title": "Ali Akbar — Supply Chain Specialist & Fulfillment Specialist",
+    "description": "Ali Akbar — Operations Manager with proven track record: 47% OPEX reduction, custom WMS build, multi-vendor ODM supply chain.",
+    "ogTitle": "Ali Akbar — Supply Chain Specialist & Fulfillment Specialist",
+    "ogDescription": "Operations Manager | 47% OPEX Reduction | Custom WMS Builder | Multi-vendor ODM Supply Chain | 87% Negotiation Success Rate.",
+    "ogImage": "assets/photos/profile-1.jpeg"
+  },
+  "personal": {
+    "name": "Ali Akbar",
+    "initials": "AA",
+    "role": "Operations Manager",
+    "tagline": "Supply Chain Specialist & Fulfillment Specialist",
+    "location": "Madiun, East Java, Indonesia",
+    "email": "alliakbarr006@gmail.com",
+    "whatsapp": "6281334925297",
+    "github": "https://github.com/Broccolilocal",
+    "profilePhoto": "assets/photos/profile-1.jpeg",
+    "cvFile": "Ali_Akbar_CV.pdf"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Ali Akbar",
+    "titleLines": ["Supply Chain", "Specialist &", "Fulfillment Specialist"]
+  },
+  "about": {
+    "lead": "Operations Manager with one focus: <strong>costs down, systems running, team knows what to do.</strong>",
+    "paragraphs": [
+      "Most concrete result: cut OPEX by 47% at Elfishaskin. No consultants, no borrowed frameworks. Just getting inside the actual process, building the WMS from zero, and fixing the BOM down to component level.",
+      "Started at PT Apac Inti Corpora in 2020 doing supply chain planning at Indonesia's largest integrated textile manufacturer. Moved to Rown Division in 2022 managing high-volume order operations, then stepped into the full Operations Manager role at Elfishaskin in 2025."
+    ]
+  },
+  "marquee": [
+    "SUPPLY CHAIN SPECIALIST",
+    "FULFILLMENT SPECIALIST",
+    "OPERATIONS MANAGER",
+    "WMS ARCHITECT"
+  ],
+  "stats": {
+    "headline": "Proven Impact",
+    "subtitle": "Driving measurable results through systematic operations and data-driven decisions.",
+    "items": [
+      {
+        "value": "47",
+        "unit": "%",
+        "label": "OPEX Reduction",
+        "desc": "Achieved within 1 year at Elfishaskin"
+      },
+      {
+        "value": "92",
+        "unit": "%",
+        "label": "Inventory Accuracy",
+        "desc": "Custom WMS replacing manual spreadsheet tracking"
+      },
+      {
+        "value": "87",
+        "unit": "%",
+        "label": "Negotiation Success",
+        "desc": "Data-backed vendor contract renegotiations"
+      },
+      {
+        "value": "120K",
+        "unit": "+",
+        "label": "Items Monthly Sold",
+        "desc": "Order lifecycle management across marketplaces"
+      },
+      {
+        "value": "60",
+        "unit": "+",
+        "label": "SKUs Handled",
+        "desc": "Multi-SKU management across single & bundle products"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "date": "Feb 2025 – Present",
+      "title": "Operations Manager",
+      "company": "Elfishaskin",
+      "companyDesc": "D2C Skincare Brand",
+      "location": "Caruban, East Java",
+      "description": "In just 1 year, achieved 47% OPEX reduction by rebuilding procurement workflows from scratch. Transformed warehouse from manual spreadsheet tracking to a fully digital WMS system. Restructured a chaotic procurement process into a systematic, data-driven operation. Successfully expanded warehouse capacity and implemented a spare ODM system to produce key components in-house, eliminating late stockouts and delayed shipments of finished goods. Managing 60+ SKUs across TikTok Shop, Shopee, and Lazada with four teams: Procurement, Order Management, Product Development, and Warehouse."
+    },
+    {
+      "date": "Jun 2022 – Aug 2024",
+      "title": "Order Management Specialist",
+      "company": "Rown Division",
+      "companyDesc": "Clothing Brand",
+      "location": "Solo, Central Java",
+      "description": "Full order lifecycle at one of Indonesia's largest local clothing brands — 30,000+ fashion items monthly, distribution reaching Singapore and Malaysia. On-time dispatch >98%, daily stock reconciliation, weekly ROP alerts, root-cause analysis on fulfillment bottlenecks."
+    },
+    {
+      "date": "May 2020 – Feb 2022",
+      "title": "Junior Supply Chain Planner",
+      "company": "PT Apac Inti Corpora",
+      "companyDesc": "Textile Manufacturer",
+      "location": "Bawen, Semarang",
+      "description": "Indonesia's largest integrated textile manufacturer — 247-hectare facility, 5,000+ employees, exports to 74+ countries. Demand forecasting, inventory allocation, SLA monitoring, safety stock calculations, and ROP modeling at enterprise scale."
+    }
+  ],
+  "ribbons": [
+    "DATA-DRIVEN DECISIONS ✦ COST OPTIMIZATION ✦ VENDOR MANAGEMENT",
+    "PROCESS IMPROVEMENT ✦ WAREHOUSE OPERATIONS ✦ OMNICHANNEL"
+  ],
+  "projects": {
+    "headline": "Work in Action",
+    "subtitle": "Real operations, real impact — from warehouse floor to quality control lab.",
+    "gallery": [
+      { "image": "assets/projects/warehouse-racking.jpeg", "alt": "Warehouse racking system", "tag": "Warehouse Operations", "title": "Industrial Pallet Racking System", "large": true },
+      { "image": "assets/projects/fulfillment-floor.jpeg", "alt": "Fulfillment floor operations", "tag": "Fulfillment", "title": "E-Commerce Packing Operations", "large": false },
+      { "image": "assets/projects/warehouse-workstation.jpeg", "alt": "Warehouse workstation", "tag": "WMS", "title": "Custom WMS Workstation", "large": false },
+      { "image": "assets/projects/cleanroom-tour.jpeg", "alt": "ODM facility clean room", "tag": "ODM", "title": "ODM Facility Inspection", "large": false },
+      { "image": "assets/projects/qc-lab.jpeg", "alt": "Quality control laboratory", "tag": "Quality Control", "title": "Product QC Laboratory", "large": false },
+      { "image": "assets/projects/warehouse-fmcg.jpeg", "alt": "FMCG warehouse distribution", "tag": "Distribution", "title": "Large-Scale FMCG Distribution", "large": true }
+    ],
+    "videos": [
+      { "src": "assets/projects/video-1.mp4" },
+      { "src": "assets/projects/video-2.mp4" },
+      { "src": "assets/projects/video-3.mp4" },
+      { "src": "assets/projects/video-4.mp4" }
+    ]
+  },
+  "skills": {
+    "headline": "Skills & Expertise",
+    "subtitle": "Mastering end-to-end supply chain in a multi-vendor ODM model with no in-house production.",
+    "expertiseColumns": [
+      {
+        "icon": "cube",
+        "title": "Supply Chain & Operations",
+        "description": "Redesigning supply chain workflows from procurement to fulfillment. Custom WMS, BOM management, multi-vendor PO calendar, and cost controls at the component level."
+      },
+      {
+        "icon": "chart",
+        "title": "Data Analysis & KPI",
+        "description": "Data-driven operational analysis (Excel advanced, SQL, multi-SKU analytics). Defect tracking to Rupiah figures, KPI scorecards for 4 teams, demand forecasting with >85% accuracy target."
+      },
+      {
+        "icon": "people",
+        "title": "Leadership & Negotiation",
+        "description": "Leading 4 functional teams. 87% vendor negotiation success rate backed by cost-of-defect data and market price benchmarks."
+      }
+    ],
+    "categories": [
+      {
+        "title": "Hard Skills",
+        "tags": [
+          { "id": "supply-chain", "label": "End-to-End Supply Chain" },
+          { "id": "wms", "label": "Custom WMS Architecture" },
+          { "id": "bom", "label": "BOM Management" },
+          { "id": "procurement", "label": "Procurement & Multi-Vendor" },
+          { "id": "forecasting", "label": "Demand Forecasting" },
+          { "id": "opex", "label": "OPEX Analysis & Cost Reduction" },
+          { "id": "warehouse", "label": "Warehouse Operations" },
+          { "id": "omnichannel", "label": "Omnichannel Order Management" },
+          { "id": "data-analysis", "label": "Operational Data Analysis" },
+          { "id": "kpi", "label": "KPI & OKR Design" },
+          { "id": "npd", "label": "NPD Coordination" },
+          { "id": "sla", "label": "SLA & E-Commerce Fulfilment" }
+        ]
+      },
+      {
+        "title": "Technical Competencies",
+        "tags": [
+          { "id": "wms-tech", "label": "Custom WMS Build & Ops" },
+          { "id": "oms", "label": "Order Management Systems" },
+          { "id": "bom-tech", "label": "BOM Management" },
+          { "id": "excel", "label": "Microsoft Excel (Advanced)" },
+          { "id": "forecasting-tech", "label": "Demand Forecasting" },
+          { "id": "erp", "label": "ERP Concepts" },
+          { "id": "inventory", "label": "Inventory Control Systems" },
+          { "id": "analytics", "label": "Multi-SKU Analytics" },
+          { "id": "odm", "label": "ODM/OEM Coordination" },
+          { "id": "dashboard", "label": "KPI Dashboard Design" },
+          { "id": "procurement-sys", "label": "Procurement Systems" },
+          { "id": "ecommerce", "label": "E-Commerce Marketplace Ops" },
+          { "id": "sql", "label": "SQL (Basic–Intermediate)" },
+          { "id": "coding", "label": "Basic Coding / Scripting" }
+        ]
+      },
+      {
+        "title": "Soft Skills",
+        "tags": [
+          { "id": "systems-thinking", "label": "Strategic Systems Thinking" },
+          { "id": "leadership", "label": "Team Leadership (4 Teams)" },
+          { "id": "rca", "label": "Root-Cause Analysis" },
+          { "id": "negotiation", "label": "Vendor Negotiation (87%)", "accent": true },
+          { "id": "stakeholder", "label": "Stakeholder Management" },
+          { "id": "pressure", "label": "Decision under Campaign Pressure" },
+          { "id": "process", "label": "Process Improvement" },
+          { "id": "problem-solving", "label": "Structured Problem Solving" }
+        ]
+      }
+    ]
+  },
+  "education": [
+    {
+      "badge": "🎓",
+      "degree": "Bachelor's Programme in Communication Science",
+      "school": "Universitas Slamet Riyadi (UNISRI), Surakarta",
+      "years": "2018–2020",
+      "focus": "Focus on organizational communication and stakeholder management."
+    }
+  ],
+  "marquee2": [
+    "EXPLORE MORE",
+    "SKILLS & EXPERTISE",
+    "TECHNICAL COMPETENCIES"
+  ],
+  "skillModals": {
+    "supply-chain": { "title": "End-to-End Supply Chain Strategy & Execution", "level": "expert", "desc": "Managing the entire supply chain from procurement to final delivery. 5 vendor types, ODM model with no in-house production.", "evidence": "<strong>5 vendor types</strong> (primary packaging, secondary packaging, stickers, hologram, ODM filling) managed simultaneously." },
+    "wms": { "title": "Custom WMS Architecture & Implementation", "level": "expert", "desc": "Designed and built a custom Warehouse Management System from zero, replacing spreadsheet-based tracking.", "evidence": "Inventory accuracy <strong>>99%</strong>, picking errors and misfulfillments dropped to near zero across <strong>46 SKUs</strong>." },
+    "bom": { "title": "Bill of Materials (BOM) Management", "level": "expert", "desc": "BOM management down to component level with Material Readiness Check (MRC) framework.", "evidence": "<strong>MRC H-7</strong> before every ODM filling schedule — last-minute component shortfalls <strong>eliminated</strong>." },
+    "procurement": { "title": "Procurement & Multi-Vendor Management", "level": "expert", "desc": "Multi-vendor procurement with data-driven negotiation using cost-of-defect figures and market price benchmarks.", "evidence": "<strong>87% negotiation success rate</strong> across packaging, ODM, and logistics vendors." },
+    "forecasting": { "title": "Demand Forecasting & Inventory Optimization", "level": "advanced", "desc": "Demand forecasting with safety stock, ROP modeling, and campaign buffering at enterprise scale.", "evidence": "Forecast accuracy target <strong>>85%</strong>. Methods learned at <strong>PT Apac Inti Corpora</strong> still inform every planning decision." },
+    "opex": { "title": "OPEX Analysis & Cost Reduction", "level": "expert", "desc": "Identifying and eliminating operational waste through measurable process redesign.", "evidence": "<strong>OPEX reduced by 47%</strong> — impact showed up directly in contribution margin and EBITDA." },
+    "warehouse": { "title": "Warehouse Operations", "level": "advanced", "desc": "Full warehouse workflow optimization: receiving, putaway, picking, packing, shipping.", "evidence": "<strong>46 SKUs</strong>, fulfillment rate <strong>>99%</strong>." },
+    "omnichannel": { "title": "Omnichannel Order Lifecycle Management", "level": "expert", "desc": "Managing full order lifecycle across multiple marketplace channels simultaneously.", "evidence": "<strong>TikTok Shop, Shopee, Lazada</strong>. On-time dispatch <strong>>98%</strong>." },
+    "data-analysis": { "title": "Operational Data Analysis & Reporting", "level": "advanced", "desc": "Finding insights and bottlenecks through operational data analysis.", "evidence": "Built a <strong>defect tracking system</strong> that converts defect rates into Rupiah figures." },
+    "kpi": { "title": "KPI Design & OKR Framework Implementation", "level": "advanced", "desc": "Designing measurable KPIs for every operational function.", "evidence": "Scorecards for <strong>4 teams</strong>: fulfillment >99%, vendor OTD >95%, forecast >85%, NPD on-time >85%." },
+    "npd": { "title": "New Product Development Coordination", "level": "advanced", "desc": "Coordinating NPD across procurement, packaging, and ODM filling schedules.", "evidence": "NPD on-time launch target <strong>>85%</strong>." },
+    "sla": { "title": "SLA Management & E-Commerce Fulfilment", "level": "expert", "desc": "Ensuring SLA compliance across all marketplace channels.", "evidence": "On-time dispatch >98% across <strong>3 platforms</strong>." },
+    "wms-tech": { "title": "Custom WMS Build & Ops", "level": "expert", "desc": "End-to-end WMS development from system design to daily operations.", "evidence": "Built from <strong>zero</strong>, running daily across <strong>46 SKUs</strong>." },
+    "oms": { "title": "Order Management Systems", "level": "advanced", "desc": "Managing order lifecycle through OMS platforms for multi-channel operations.", "evidence": "High-volume processing at <strong>Rown Division</strong> (30,000+ items/month)." },
+    "bom-tech": { "title": "BOM Management (Technical)", "level": "expert", "desc": "Technical BOM tracking at component level with automated readiness checks.", "evidence": "MRC H-7 framework prevents <strong>production stalls</strong>." },
+    "inventory": { "title": "Inventory Control Systems", "level": "advanced", "desc": "Inventory allocation, safety stock calculations, and ROP modeling.", "evidence": "Learned at <strong>enterprise scale</strong> at PT Apac Inti Corpora." },
+    "analytics": { "title": "Multi-SKU Analytics", "level": "advanced", "desc": "Analyzing performance across multiple SKUs to optimize inventory.", "evidence": "Managing <strong>46 SKUs</strong> with near-zero errors." },
+    "odm": { "title": "ODM/OEM Coordination", "level": "expert", "desc": "Coordinating with ODM/OEM partners for production scheduling and quality.", "evidence": "<strong>5 vendor types</strong> coordinated with multi-vendor PO calendar." },
+    "dashboard": { "title": "KPI Dashboard Design", "level": "advanced", "desc": "Designing operational dashboards for real-time performance monitoring.", "evidence": "Scorecards tracking <strong>4 teams</strong> with measurable targets." },
+    "procurement-sys": { "title": "Procurement Systems", "level": "advanced", "desc": "Building procurement workflows from vendor selection to PO management.", "evidence": "Multi-vendor PO calendar ensuring materials arrive <strong>1 week before</strong> filling." },
+    "ecommerce": { "title": "E-Commerce Marketplace Ops", "level": "expert", "desc": "Operating across multiple e-commerce platforms with stock sync.", "evidence": "<strong>TikTok Shop, Shopee, Lazada</strong> — reaching Singapore and Malaysia." },
+    "forecasting-tech": { "title": "Demand Forecasting (Technical)", "level": "advanced", "desc": "Technical forecasting models including safety stock and demand buffering.", "evidence": "Enterprise-scale methods from <strong>Indonesia's largest textile manufacturer</strong>." },
+    "excel": { "title": "Microsoft Excel (Advanced)", "level": "advanced", "desc": "Pivot tables, VLOOKUP/INDEX-MATCH, conditional formatting, dashboards.", "evidence": "Analyzing cancellation rates, SKU performance, fulfillment speed." },
+    "sql": { "title": "SQL (Basic-Intermediate)", "level": "intermediate", "desc": "Database queries for operational analysis beyond Excel.", "evidence": "Supporting <strong>process improvement decisions</strong>." },
+    "erp": { "title": "ERP Concepts", "level": "intermediate", "desc": "Understanding integrated ERP modules: procurement, inventory, production, sales.", "evidence": "Applied in <strong>custom WMS</strong> development." },
+    "coding": { "title": "Basic Coding / Scripting", "level": "intermediate", "desc": "Automating repetitive tasks and data processing.", "evidence": "Supporting <strong>custom WMS build</strong>." },
+    "systems-thinking": { "title": "Strategic Systems Thinking", "level": "soft", "desc": "Seeing operations as interconnected systems, not isolated processes.", "evidence": "47% OPEX redesign from understanding <strong>connections between processes</strong>." },
+    "leadership": { "title": "Team Leadership — 4 Functional Teams", "level": "soft", "desc": "Leading Procurement, Order Management, Product Development, and Warehouse.", "evidence": "Each team has a <strong>KPI scorecard</strong> with measurable targets." },
+    "rca": { "title": "Root-Cause Analysis", "level": "soft", "desc": "Data-first: identify root causes, then take action.", "evidence": "Dug into data to find <strong>root cause of fulfillment bottlenecks</strong>." },
+    "negotiation": { "title": "Vendor Negotiation — 87% Success", "level": "soft", "desc": "Contract negotiation backed by cost-of-defect data and market benchmarks.", "evidence": "<strong>87% success rate</strong> across all renegotiations." },
+    "stakeholder": { "title": "Stakeholder Management", "level": "soft", "desc": "Managing relationships with internal teams and external vendors.", "evidence": "Internal negotiations need the same <strong>data backing</strong> as external ones." },
+    "pressure": { "title": "Decision Making under Campaign Pressure", "level": "soft", "desc": "Quick decisions during major campaigns with volume spikes.", "evidence": "SLA monitoring when volume increases <strong>2-5x</strong>." },
+    "process": { "title": "Process Improvement — Practical", "level": "soft", "desc": "Hands-on process improvement driven by operational data.", "evidence": "Findings <strong>fed directly into process changes</strong>." },
+    "problem-solving": { "title": "Structured Problem Solving", "level": "soft", "desc": "Evidence-based: data first, analysis, then action.", "evidence": "Philosophy: <strong>\"data-first, then action\"</strong>." }
+  }
+}
