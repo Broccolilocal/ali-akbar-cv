@@ -116,7 +116,8 @@
       { "src": "assets/projects/video-1.mp4" },
       { "src": "assets/projects/video-2.mp4" },
       { "src": "assets/projects/video-3.mp4" },
-      { "src": "assets/projects/video-4.mp4" }
+      { "src": "assets/projects/video-4.mp4" },
+      { "src": "assets/projects/video-5.mp4" }
     ]
   },
   "skills": {
