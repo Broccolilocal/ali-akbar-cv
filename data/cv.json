@@ -58,10 +58,10 @@
         "desc": "Data-backed vendor contract renegotiations"
       },
       {
-        "value": "120K",
+        "value": "150K",
         "unit": "+",
         "label": "Items Monthly Sold",
-        "desc": "Order lifecycle management across marketplaces"
+        "desc": "Order lifecycle management across marketplaces at Elfishaskin"
       },
       {
         "value": "60",
@@ -78,7 +78,7 @@
       "company": "Elfishaskin",
       "companyDesc": "D2C Skincare Brand",
       "location": "Caruban, East Java",
-      "description": "In just 1 year, achieved 47% OPEX reduction by rebuilding procurement workflows from scratch. Transformed warehouse from manual spreadsheet tracking to a fully digital WMS system. Restructured a chaotic procurement process into a systematic, data-driven operation. Successfully expanded warehouse capacity and implemented a spare ODM system to produce key components in-house, eliminating late stockouts and delayed shipments of finished goods. Managing 60+ SKUs across TikTok Shop, Shopee, and Lazada with four teams: Procurement, Order Management, Product Development, and Warehouse."
+      "description": "In just 1 year, achieved 47% OPEX reduction by rebuilding procurement workflows from scratch. Transformed warehouse from manual spreadsheet tracking to a fully digital WMS system with 92% inventory accuracy. Restructured a chaotic procurement process into a systematic, data-driven operation. Successfully expanded warehouse capacity and implemented a spare ODM system to produce key components in-house, eliminating late stockouts and delayed shipments of finished goods. Managing 60+ SKUs and 150,000+ items/month across TikTok Shop, Shopee, and Lazada with four teams: Procurement, Order Management, Product Development, and Warehouse. Fulfillment rate at 95%."
     },
     {
       "date": "Jun 2022 – Aug 2024",
@@ -207,26 +207,26 @@
   ],
   "skillModals": {
     "supply-chain": { "title": "End-to-End Supply Chain Strategy & Execution", "level": "expert", "desc": "Managing the entire supply chain from procurement to final delivery. 5 vendor types, ODM model with no in-house production.", "evidence": "<strong>5 vendor types</strong> (primary packaging, secondary packaging, stickers, hologram, ODM filling) managed simultaneously." },
-    "wms": { "title": "Custom WMS Architecture & Implementation", "level": "expert", "desc": "Designed and built a custom Warehouse Management System from zero, replacing spreadsheet-based tracking.", "evidence": "Inventory accuracy <strong>>99%</strong>, picking errors and misfulfillments dropped to near zero across <strong>46 SKUs</strong>." },
+    "wms": { "title": "Custom WMS Architecture & Implementation", "level": "expert", "desc": "Designed and built a custom Warehouse Management System from zero, replacing spreadsheet-based tracking.", "evidence": "Inventory accuracy <strong>92%</strong>, picking errors and misfulfillments dropped significantly across <strong>60+ SKUs</strong>." },
     "bom": { "title": "Bill of Materials (BOM) Management", "level": "expert", "desc": "BOM management down to component level with Material Readiness Check (MRC) framework.", "evidence": "<strong>MRC H-7</strong> before every ODM filling schedule — last-minute component shortfalls <strong>eliminated</strong>." },
     "procurement": { "title": "Procurement & Multi-Vendor Management", "level": "expert", "desc": "Multi-vendor procurement with data-driven negotiation using cost-of-defect figures and market price benchmarks.", "evidence": "<strong>87% negotiation success rate</strong> across packaging, ODM, and logistics vendors." },
     "forecasting": { "title": "Demand Forecasting & Inventory Optimization", "level": "advanced", "desc": "Demand forecasting with safety stock, ROP modeling, and campaign buffering at enterprise scale.", "evidence": "Forecast accuracy target <strong>>85%</strong>. Methods learned at <strong>PT Apac Inti Corpora</strong> still inform every planning decision." },
     "opex": { "title": "OPEX Analysis & Cost Reduction", "level": "expert", "desc": "Identifying and eliminating operational waste through measurable process redesign.", "evidence": "<strong>OPEX reduced by 47%</strong> — impact showed up directly in contribution margin and EBITDA." },
-    "warehouse": { "title": "Warehouse Operations", "level": "advanced", "desc": "Full warehouse workflow optimization: receiving, putaway, picking, packing, shipping.", "evidence": "<strong>46 SKUs</strong>, fulfillment rate <strong>>99%</strong>." },
-    "omnichannel": { "title": "Omnichannel Order Lifecycle Management", "level": "expert", "desc": "Managing full order lifecycle across multiple marketplace channels simultaneously.", "evidence": "<strong>TikTok Shop, Shopee, Lazada</strong>. On-time dispatch <strong>>98%</strong>." },
+    "warehouse": { "title": "Warehouse Operations", "level": "advanced", "desc": "Full warehouse workflow optimization: receiving, putaway, picking, packing, shipping.", "evidence": "<strong>60+ SKUs</strong>, fulfillment rate <strong>95%</strong>." },
+    "omnichannel": { "title": "Omnichannel Order Lifecycle Management", "level": "expert", "desc": "Managing full order lifecycle across multiple marketplace channels simultaneously. 150,000+ items/month at Elfishaskin.", "evidence": "<strong>TikTok Shop, Shopee, Lazada</strong>. <strong>150,000+ items/month</strong>. Fulfillment rate <strong>95%</strong>." },
     "data-analysis": { "title": "Operational Data Analysis & Reporting", "level": "advanced", "desc": "Finding insights and bottlenecks through operational data analysis.", "evidence": "Built a <strong>defect tracking system</strong> that converts defect rates into Rupiah figures." },
-    "kpi": { "title": "KPI Design & OKR Framework Implementation", "level": "advanced", "desc": "Designing measurable KPIs for every operational function.", "evidence": "Scorecards for <strong>4 teams</strong>: fulfillment >99%, vendor OTD >95%, forecast >85%, NPD on-time >85%." },
+    "kpi": { "title": "KPI Design & OKR Framework Implementation", "level": "advanced", "desc": "Designing measurable KPIs for every operational function.", "evidence": "Scorecards for <strong>4 teams</strong>: fulfillment 95%, vendor OTD >95%, forecast >85%, NPD on-time >85%." },
     "npd": { "title": "New Product Development Coordination", "level": "advanced", "desc": "Coordinating NPD across procurement, packaging, and ODM filling schedules.", "evidence": "NPD on-time launch target <strong>>85%</strong>." },
     "sla": { "title": "SLA Management & E-Commerce Fulfilment", "level": "expert", "desc": "Ensuring SLA compliance across all marketplace channels.", "evidence": "On-time dispatch >98% across <strong>3 platforms</strong>." },
-    "wms-tech": { "title": "Custom WMS Build & Ops", "level": "expert", "desc": "End-to-end WMS development from system design to daily operations.", "evidence": "Built from <strong>zero</strong>, running daily across <strong>46 SKUs</strong>." },
-    "oms": { "title": "Order Management Systems", "level": "advanced", "desc": "Managing order lifecycle through OMS platforms for multi-channel operations.", "evidence": "High-volume processing at <strong>Rown Division</strong> (30,000+ items/month)." },
+    "wms-tech": { "title": "Custom WMS Build & Ops", "level": "expert", "desc": "End-to-end WMS development from system design to daily operations.", "evidence": "Built from <strong>zero</strong>, running daily across <strong>60+ SKUs</strong> with <strong>92% inventory accuracy</strong>." },
+    "oms": { "title": "Order Management Systems", "level": "expert", "desc": "Managing order lifecycle through OMS platforms for multi-channel operations at scale.", "evidence": "High-volume processing at <strong>Rown Division</strong> (30,000+ items/month) and <strong>Elfishaskin</strong> (150,000+ items/month)." },
     "bom-tech": { "title": "BOM Management (Technical)", "level": "expert", "desc": "Technical BOM tracking at component level with automated readiness checks.", "evidence": "MRC H-7 framework prevents <strong>production stalls</strong>." },
     "inventory": { "title": "Inventory Control Systems", "level": "advanced", "desc": "Inventory allocation, safety stock calculations, and ROP modeling.", "evidence": "Learned at <strong>enterprise scale</strong> at PT Apac Inti Corpora." },
-    "analytics": { "title": "Multi-SKU Analytics", "level": "advanced", "desc": "Analyzing performance across multiple SKUs to optimize inventory.", "evidence": "Managing <strong>46 SKUs</strong> with near-zero errors." },
+    "analytics": { "title": "Multi-SKU Analytics", "level": "advanced", "desc": "Analyzing performance across multiple SKUs to optimize inventory.", "evidence": "Managing <strong>60+ SKUs</strong> across single &amp; bundle products." },
     "odm": { "title": "ODM/OEM Coordination", "level": "expert", "desc": "Coordinating with ODM/OEM partners for production scheduling and quality.", "evidence": "<strong>5 vendor types</strong> coordinated with multi-vendor PO calendar." },
     "dashboard": { "title": "KPI Dashboard Design", "level": "advanced", "desc": "Designing operational dashboards for real-time performance monitoring.", "evidence": "Scorecards tracking <strong>4 teams</strong> with measurable targets." },
     "procurement-sys": { "title": "Procurement Systems", "level": "advanced", "desc": "Building procurement workflows from vendor selection to PO management.", "evidence": "Multi-vendor PO calendar ensuring materials arrive <strong>1 week before</strong> filling." },
-    "ecommerce": { "title": "E-Commerce Marketplace Ops", "level": "expert", "desc": "Operating across multiple e-commerce platforms with stock sync.", "evidence": "<strong>TikTok Shop, Shopee, Lazada</strong> — reaching Singapore and Malaysia." },
+    "ecommerce": { "title": "E-Commerce Marketplace Ops", "level": "expert", "desc": "Operating across multiple e-commerce platforms with stock sync. 150,000+ items/month.", "evidence": "<strong>TikTok Shop, Shopee, Lazada</strong> — <strong>150,000+ items/month</strong> at Elfishaskin, reaching Singapore and Malaysia at Rown Division." },
     "forecasting-tech": { "title": "Demand Forecasting (Technical)", "level": "advanced", "desc": "Technical forecasting models including safety stock and demand buffering.", "evidence": "Enterprise-scale methods from <strong>Indonesia's largest textile manufacturer</strong>." },
     "excel": { "title": "Microsoft Excel (Advanced)", "level": "advanced", "desc": "Pivot tables, VLOOKUP/INDEX-MATCH, conditional formatting, dashboards.", "evidence": "Analyzing cancellation rates, SKU performance, fulfillment speed." },
     "sql": { "title": "SQL (Basic-Intermediate)", "level": "intermediate", "desc": "Database queries for operational analysis beyond Excel.", "evidence": "Supporting <strong>process improvement decisions</strong>." },
